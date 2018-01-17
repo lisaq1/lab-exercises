@@ -9,7 +9,7 @@ my.vector <- c(my.num, initials)
 vector.sum <- sum(my.vector)
 
 # Describe why this doesn't work: 
-# 
+# sum(my.vector) has an invalid argument so the sum function will not run.
 
 install.packages("stringr")
 
@@ -18,12 +18,12 @@ my.line <- "Hey, hey, this is the library"
 print(str_length(my.line))
 
 # Describe why this doesn't work: 
-# 
+# the system could not find the function str_length
 
 said.the.famous <- paste(my.line, " - ", initial)
 
 # Describe why this doesn't work: 
-# 
+# "initial" is not found, the previous variable used was "initials"
 
 
 ## Part 2 - Vector and function practice
